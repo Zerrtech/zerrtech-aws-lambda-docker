@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "zerrtech-lambda-sam"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-txb79d3i7628"
+s3_prefix = "zerrtech-lambda-sam"
+region = "us-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
